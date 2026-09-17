@@ -2,7 +2,7 @@
 
 A simple task tracking application built with React.
 
-This project was created to practice the fundamental concepts of React such as components, props, state management, event handling, conditional rendering, and dynamic lists.
+This project was created to practice the fundamental concepts of React such as components, props, state management, event handling, conditional rendering, filtering, and dynamic lists.
 
 ## Features
 
@@ -16,6 +16,20 @@ This project was created to practice the fundamental concepts of React such as c
 - Display task statistics
 - Clear all tasks
 - Prevent empty tasks from being added
+
+## Screenshots
+
+### Task List
+
+![Task Tracker Main](./screenshots/task-tracker-main.png)
+
+### Completed Task
+
+![Task Tracker Completed](./screenshots/task-tracker-completed.png)
+
+### Completed Tasks Filter
+
+![Task Tracker Filter](./screenshots/task-tracker-filter.png)
 
 ## Technologies
 
@@ -32,10 +46,12 @@ This project was created to practice the fundamental concepts of React such as c
 - useState
 - Event Handling
 - Conditional Rendering
-- Array map()
-- Array filter()
-- key
+- Array `map()`
+- Array `filter()`
+- `key`
 - Controlled Inputs
+- Passing functions through props
+- State-based filtering
 
 ## Project Structure
 
