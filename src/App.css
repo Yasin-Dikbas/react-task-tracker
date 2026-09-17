@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  color: #1f2937;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.app-container {
+  width: 90%;
+  max-width: 750px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.app-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.task-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.task-input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  outline: none;
+}
+
+.task-input:focus {
+  border-color: #2563eb;
+}
+
+.add-button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #2563eb;
+  color: white;
+}
+
+.task-filter {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.task-filter button {
+  padding: 8px 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background-color: white;
+}
+
+.task-filter button:hover {
+  background-color: #f3f4f6;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+
+  padding: 15px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+
+.task-item.completed {
+  background-color: #f3f4f6;
+}
+
+.task-item.completed .task-text {
+  text-decoration: line-through;
+  color: #9ca3af;
+}
+
+.task-text {
+  margin: 0 0 5px;
+  font-weight: 600;
+}
+
+.task-status {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.task-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.task-actions button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+}
+
+.toggle-button {
+  background-color: #16a34a;
+  color: white;
+}
+
+.delete-button {
+  background-color: #dc2626;
+  color: white;
+}
+
+.task-stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  padding: 15px;
+  background-color: #f3f4f6;
+  border-radius: 8px;
+}
+
+.task-stats p {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 5px;
+}
+
+.task-stats strong {
+  font-size: 20px;
+}
+
+.clear-button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+
+  border: none;
+  border-radius: 6px;
+
+  background-color: #111827;
+  color: white;
+}
